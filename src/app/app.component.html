@@ -1,0 +1,13 @@
+<!-- 
+Welcome to {{title}}   <!– çift slash işereti anguları işaret eder. –>
+Hello {{user}}
+Ürün özellikleri {{car1.productName}}
+
+<ul>
+  <li *ngFor="let car of cars">{{car.productName}}</li> <!– *ngFor bir directiv dir. –>
+</ul> -->
+<app-navi></app-navi>
+<app-category></app-category>
+<app-car></app-car>
+
+<router-outlet></router-outlet>
